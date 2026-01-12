@@ -174,3 +174,19 @@ section.join p::first-letter{
 p::after{
   content: "...";
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 1400px){
+
+  .banner .welcome{
+    font-size: 40px;
+  }
+@media screen and (max-width: 960px){
+
+  .banner .welcome{
+    font-size: 28px;
+  }
+  nav li{
+    font-size: 18px;
+  }
