@@ -1,7 +1,11 @@
-body,ul, li, h1, h2 a {
-margin:0;
-padding: 0;
-font-family: 'Arial'; 
+body,
+ul,
+li,
+h1,
+h2 a {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
 }
 
 header {
@@ -75,4 +79,20 @@ nav li a {
 
 nav li a.join {
   color: #f63232;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+article h2 {
+  color: #f63232;
+  font-size: 48px;
+}
+article p {
+  line-height: 2em;
 }
