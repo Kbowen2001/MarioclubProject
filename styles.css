@@ -93,6 +93,22 @@ article h2 {
   color: #f63232;
   font-size: 48px;
 }
+
 article p {
   line-height: 2em;
+  color: #4b4b4b;
+}
+
+.images {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.images li {
+  display: inline-block;
+  width: 40%;
+}
+
+.images li img {
+  max-width: 100%;
 }
