@@ -1,11 +1,10 @@
-body,
-ul,
-li,
-h1,
-h2 a {
+body,ul,li,h1,h2 a {
   margin: 0;
   padding: 0;
-  font-family: "Arial";
+  font-family: "tahoma";
+}
+p{
+  font-size: 18px;
 }
 
 header {
@@ -39,17 +38,14 @@ header h1 {
   background-color: #feb614;
   color: white;
   padding: 30px;
+  font-size: 60px;
   position: absolute;
   left: 0px;
   top: 30%;
 }
 
-.banner h2 {
-  font-size: 74px;
-}
-
-.banner span {
-  font-size: 1.3em;
+.banner .welcome span {
+  font-size: 1.4em;
 }
 
 nav {
