@@ -1,9 +1,9 @@
-header{
-    position: static; 
-
+header {
 }
 
-.banner{
-position: relative;
-
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
 }
