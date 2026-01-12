@@ -218,3 +218,18 @@ p::after{
     display: block;
     margin: 20px auto;
   }
+
+  @media screen and (max-width: 560px){
+    nav li{
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+  }
+  header{
+    position: relative;
+  }
+  nav{
+    top:0;
+  }
+  }
