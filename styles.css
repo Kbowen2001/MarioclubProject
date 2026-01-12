@@ -1,10 +1,13 @@
 header {
-  color: red;
 }
 
 .banner {
   position: relative;
 }
+
 .banner img {
   max-width: 100%;
+}
+.banner .welcome {
+  position: absolute;
 }
